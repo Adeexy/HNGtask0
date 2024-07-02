@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Profile - Aderemi Ayobami Samuel</title>
+    <link rel="stylesheet" href="staticweb.css">
+</head>
+<body>
+    <header>
+        <h1>My DevOps Profile</h1>
+    </header>
+    <main>
+        <form id="devops-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="Aderemi Ayobami Samuel" required>
+
+            <label for="slack username">Slack Username:</label>
+            <input type="text" id="slack username" name="slack username" value="@Aderemi Samuel" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" value="aderemisamuel@gmail.com" required>
+
+            <label for="experience">Years of Experience:</label>
+            <input type="number" id="experience" name="experience" min="0" max="50" required>
+
+            <label for="specialization">Specialization:</label>
+            <select id="specialization" name="specialization" required>
+                <option value="">Select a specialization</option>
+                <option value="ci-cd">CI/CD</option>
+                <option value="containerization">Containerization</option>
+                <option value="cloud">Cloud Infrastructure</option>
+                <option value="automation">Automation</option>
+                <option value="monitoring">Monitoring and Logging</option>
+            </select>
+
+            <label for="skills">Key Skills (comma-separated):</label>
+            <textarea id="skills" name="skills" rows="3" required></textarea>
+
+            <label for="github">GitHub Profile:</label>
+            <input type="url" id="github" name="github" placeholder="https://github.com/yourusername">
+
+            <input type="submit" value="Submit Profile">
+        </form>
+    </main>
+    <footer>
+        <a href="https://hng.tech/" target="_blank">This is my HNG Stage 0 task, Please click this link to know more about HNG internship</a>
+    </footer>
+</body>
+</html>
